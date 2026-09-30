@@ -1,0 +1,7 @@
+# Optional: only needed for local Stable Diffusion instead of Hugging Face Inference Providers.
+# Install a PyTorch build appropriate for your OS/GPU first from https://pytorch.org/
+diffusers>=0.35,<1
+transformers>=4.55,<5
+accelerate>=1.10,<2
+safetensors>=0.6,<1
+torch>=2.7,<3
